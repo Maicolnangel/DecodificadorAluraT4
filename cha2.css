@@ -144,15 +144,17 @@ body{
     color: wheat;
 }
 
+/*parte responsive do site */
+
 @media screen and (max-width: 500px) {
     /* coloque seu código CSS específico para dispositivos móveis aqui */
     .cabecalho img {
         
         width: auto;
         height: auto;
-
+    
     }
-
+    
     .container-input .input{
         width: 300px;
         height: 250px;
@@ -174,6 +176,7 @@ body{
 
      p {
         font-size: 12px;
+        content: "🛈";
      }
 
      .container-bnt button{
@@ -207,13 +210,13 @@ body{
         width: 100px;
         height: 100px;
         margin-top: 4%;
+        margin-left: 92px;
     }
 
     #output span{
         font-size: 15px;
         text-align: center;
         margin-top: -4%;
-
     }
 
     .rodape{
@@ -229,13 +232,13 @@ body{
     }
 
     .rodape h3{
-        font-size: 16px;
+        font-size: 12px;
         color: black;
     }
 
     .icons ion-icon{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         color: black;
     }
 }
