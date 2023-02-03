@@ -144,3 +144,94 @@ body{
     color: wheat;
 }
 
+@media screen and (max-width: 500px) {
+    /* coloque seu código CSS específico para dispositivos móveis aqui */
+    .cabecalho img {
+        
+        width: auto;
+        height: auto;
+
+    }
+    
+    #input-texto{
+        display: block;
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        color: #0A3871; 
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+        padding: 10px;
+        text-transform: lowercase; /*mudar para minuscula */
+     }
+
+     p {
+        font-size: 12px;
+     }
+
+     .container-bnt button{
+        border: 2px solid var(--cortitulo);
+        border-radius: 10px;
+        text-decoration: none;
+        color: #0A3871;
+        width: 150px;
+        height: 50px;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    
+     #output{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+        position: absolute;
+        width: 327px;
+        height: 186px;
+        left: auto;
+        top: 484px;
+        border: 3px solid var(--cortitulo);
+        border-radius: 20px;        
+    }
+
+    #output img{
+        max-width: 300px;
+        width: 100px;
+        height: 100px;
+        margin-top: 4%;
+    }
+
+    #output span{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 4%;
+
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        margin-top: 360px;
+        margin-left: 0%;
+        margin-right: -5%;
+        background: var(--corprincipal);
+        color: var(--cortitulo);
+    }
+
+    .rodape h3{
+        font-size: 16px;
+        color: black;
+    }
+
+    .icons ion-icon{
+        width: 25px;
+        height: 25px;
+        color: black;
+    }
+}
+
