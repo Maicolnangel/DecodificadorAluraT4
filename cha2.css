@@ -191,7 +191,7 @@ body{
         position: absolute;
         width: 327px;
         height: 186px;
-        left: auto;
+        left: 1px;
         top: 484px;
         border: 3px solid var(--cortitulo);
         border-radius: 20px;        
@@ -207,7 +207,7 @@ body{
     #output span{
         font-size: 15px;
         text-align: center;
-        margin-top: 4%;
+        margin-top: -4%;
 
     }
 
